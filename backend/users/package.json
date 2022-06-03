@@ -28,7 +28,8 @@
     "@sqs-contracts/users-contracts": "1.0.0",
     "@swarmion/serverless-contracts": "0.6.0",
     "aws-sdk": "^2.1146.0",
-    "http-errors": "^2.0.0"
+    "http-errors": "^2.0.0",
+    "json-schema-to-ts": "^2.5.3"
   },
   "devDependencies": {
     "@serverless/typescript": "^3.18.0",

@@ -10,6 +10,7 @@ import {
 } from '@sqs-contracts/serverless-configuration';
 
 import { functions } from './functions';
+import { Resources } from './resources';
 
 const serverlessConfiguration: AWS = {
   service: `${projectName}-users`, // Keep it short to have role name below 64
@@ -31,6 +32,7 @@ const serverlessConfiguration: AWS = {
   },
   resources: {
     Description: 'Users service: manage users',
+    Resources,
   },
 };
 

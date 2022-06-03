@@ -3089,6 +3089,7 @@ __metadata:
     eslint: ^8.16.0
     http-errors: ^2.0.0
     jest: ^27.5.1
+    json-schema-to-ts: ^2.5.3
     serverless: ^3.18.2
     serverless-esbuild: ^1.30.0
     serverless-iam-roles-per-function: ^3.2.0

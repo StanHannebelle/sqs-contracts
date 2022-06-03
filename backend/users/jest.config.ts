@@ -1,4 +1,4 @@
-import { jestConfig } from '@swarmion-starter/configuration';
+import { jestConfig } from '@sqs-contracts/configuration';
 
 export default {
   ...jestConfig,

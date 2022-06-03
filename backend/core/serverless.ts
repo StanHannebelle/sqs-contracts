@@ -1,14 +1,14 @@
 import { AWS } from '@serverless/typescript';
 
-import { httpApiResourceContract } from '@swarmion-starter/core-contracts';
+import { httpApiResourceContract } from '@sqs-contracts/core-contracts';
 import {
   frameworkVersion,
   projectName,
   sharedEsbuildConfig,
   sharedParams,
   sharedProviderConfig,
-} from '@swarmion-starter/serverless-configuration';
-import { mergeStageParams } from '@swarmion-starter/serverless-helpers';
+} from '@sqs-contracts/serverless-configuration';
+import { mergeStageParams } from '@sqs-contracts/serverless-helpers';
 
 import { functions } from './functions';
 

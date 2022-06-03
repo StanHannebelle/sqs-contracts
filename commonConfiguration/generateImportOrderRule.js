@@ -38,7 +38,7 @@ const generateImportOrderRule = (dirname, tsConfigPath = 'tsconfig.json') => {
       'error',
       {
         pathGroups: [
-          { pattern: '@swarmion-starter/**', group: 'unknown' },
+          { pattern: '@sqs-contracts/**', group: 'unknown' },
           ...pathGroups,
         ],
         groups: [
